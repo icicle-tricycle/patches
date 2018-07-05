@@ -229,7 +229,7 @@ def hsCardLookup(name):
     response = unirest.get(
         "https://omgvamp-hearthstone-v1.p.mashape.com/cards/search/" + name + "?collectible=1",
         headers={
-            "X-Mashape-Key": "sR83ncojSVmshWb0ulVcvyTDaLpxp15JWzdjsnP9644BnkoBgh",
+            "X-Mashape-Key": "",
             "X-Mashape-Host": "omgvamp-hearthstone-v1.p.mashape.com"
         }
     )
@@ -242,7 +242,7 @@ def hsSpecificCardLookup(name):
     response = unirest.get(
         "https://omgvamp-hearthstone-v1.p.mashape.com/cards/" + name + "?collectible=1",
         headers={
-            "X-Mashape-Key": "sR83ncojSVmshWb0ulVcvyTDaLpxp15JWzdjsnP9644BnkoBgh",
+            "X-Mashape-Key": "",
             "X-Mashape-Host": "omgvamp-hearthstone-v1.p.mashape.com"
         }
     )
@@ -251,4 +251,4 @@ def hsSpecificCardLookup(name):
 
 
 # Actually run the program, using my discord's bot user token
-client.run('MzYxOTQ3NjI3Njk4NTIwMDc1.DKrpcQ.QI8RblrilYpAYwfQiO7qPxemF9Q')
+client.run('')
